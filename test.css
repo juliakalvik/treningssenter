@@ -1,0 +1,15 @@
+h1 {
+  width: 400px;
+  height: 100%;
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+}
+
+
+.herobox img {
+  max-width: 100%;
+}
