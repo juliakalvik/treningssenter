@@ -1,5 +1,9 @@
 body {
     background-color: #003049;
+    font-family: "Khula", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    
 }
 
 h1 {
@@ -7,8 +11,14 @@ h1 {
     font-size: 60px;
 }
 
+/*h3 {
+    color: #FDBF49;
+}
+
+*/
+
 p {
-    color: green;
+    color: white;
 }
 
 
@@ -26,7 +36,7 @@ p {
 }
 
 .herobox img {
-    display: block;
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -76,6 +86,7 @@ p {
     justify-content: space-evenly;
     padding: 30px;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -97,4 +108,44 @@ p {
 
 .åt h3 {
     color: #F77F00;
+}
+
+
+.msparent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EBE2B8;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.abonnement {
+    background-color: #D62727;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+
+
+   
+}
+
+.abonnement h3 {
+    color: #EBE2B8;
+    font-size: 28px;
+    margin-top: 10px;
+
+}
+
+.abonnement p {
+    margin-left: 50px;
+    margin-top: -10px;
+    color: #EBE2B8;
 }
